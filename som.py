@@ -1,3 +1,6 @@
+import numpy as np
+
+"""
 test_data =open("vectors.txt", "r")
 
 listString = []
@@ -12,3 +15,23 @@ for item in listString:
   print(item)
 
 test_data.close()
+"""
+
+weight = np.random.randint(3,size=(3,3,3))
+
+vec = np.array([2,2,2])
+
+print("weight")
+print(weight)
+
+print("weight - vec")
+print(weight - vec)
+
+print("(weight - vec)**2")
+print((weight - vec)**2)
+
+print("((weight - vec)**2).sum(axis=2)")
+print(((weight - vec)**2).sum(axis=2))
+
+print("np.argmin(((weight - vec)**2).sum(axis=2))")
+print(np.argmin(((weight - vec)**2).sum(axis=2)))

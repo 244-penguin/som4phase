@@ -8,6 +8,10 @@ learntime = 100000
 alpha = 0.05
 weight = np.random.random([row,col,3])
 
+plt.imshow(weight,interpolation='none')
+plt.show()
+#print(weight)
+
 def som(colorvec):
     min_index = np.argmin(((weight-colorvec)**2).sum(axis=2))
     mini = int(min_index / col)

@@ -47,3 +47,9 @@ height = 20
 import random
 input_vectors = [[random.random() for j in range(3)] for i in range(30)]
 som_map = learning(input_vectors=input_vectors, map_width=width, map_height=height, vec_size=3, learning_count=0, area_size=3)
+
+import matplotlib.pyplot as plt
+
+print(som_map)
+#plt.imshow(som_map, interpolation='none')
+#plt.show()
