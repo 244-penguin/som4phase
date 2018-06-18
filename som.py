@@ -17,7 +17,7 @@ for item in listString:
 test_data.close()
 """
 
-weight = np.random.randint(3,size=(3,3,3))
+weight = np.random.randint(3,size=(10,3))
 
 vec = np.array([2,2,2])
 
@@ -30,8 +30,8 @@ print(weight - vec)
 print("(weight - vec)**2")
 print((weight - vec)**2)
 
-print("((weight - vec)**2).sum(axis=2)")
-print(((weight - vec)**2).sum(axis=2))
+print("((weight - vec)**2).sum(axis=1)")
+print(((weight - vec)**2).sum(axis=1))
 
-print("np.argmin(((weight - vec)**2).sum(axis=2))")
-print(np.argmin(((weight - vec)**2).sum(axis=2)))
+print("np.argmin(((weight - vec)**2).sum(axis=1))")
+print(np.argmin(((weight - vec)**2).sum(axis=1)))
