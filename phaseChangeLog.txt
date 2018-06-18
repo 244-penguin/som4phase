@@ -1,0 +1,16 @@
+Phase changed! Current phase is P[0]
+---
+Phase changed! Current phase is P[1]
+---
+Phase changed! Current phase is P[2]
+---
+Phase changed! Current phase is P[0]
+---
+Phase changed! Current phase is P[3]
+---
+Phase changed! Current phase is P[4]
+---
+Phase changed! Current phase is P[5]
+---
+Phase changed! Current phase is P[3]
+---
