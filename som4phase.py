@@ -34,13 +34,6 @@ def som(phasevec):
                 weight[mini+i,minj+j] += alpha * (phasevec - weight[mini+i,minj+j])/(abs(i)+abs(j)+1) #中心から離れるほど混ぜる色が薄まる
             except:
                 pass
-
-print(weight)
-print(inputDataList[0])
-
-print(weight - inputDataList[0])
-
-
 """   
 fig = plt.figure()
 plt.axis('off')
@@ -55,3 +48,13 @@ for time in range(learntime):
 
 print(weight)
 """
+colorvec = np.array([
+                    [[255,0,0],[0,255,0],[0,0,255],[255,255,0],[0,255,255]]
+])
+
+#画像の表示
+plt.imshow(colorvec, cmap = 'gray', interpolation = 'none')
+# => plt.imshow(img_rgb, interpolation = 'none') と同じ
+
+plt.show()
+
