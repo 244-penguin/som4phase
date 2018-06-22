@@ -1,0 +1,696 @@
+Current phase is P[0]
+---
+Current phase is P[0]
+---
+Current phase is P[1]
+---
+Current phase is P[2]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[3]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[5]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[4]
+---
+Current phase is P[6]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[7]
+---
+Current phase is P[8]
+---
+Current phase is P[8]
+---
+Current phase is P[8]
+---
+Current phase is P[8]
+---
+Current phase is P[8]
+---
+Current phase is P[8]
+---
+Current phase is P[8]
+---
