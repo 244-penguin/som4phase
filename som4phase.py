@@ -4,8 +4,8 @@ import matplotlib.animation as animation
 
 
 learning_data =open("vectors.txt", "r")
-test_data = open("testvec.txt", "r")
-phase_data = open("phases.txt")
+test_data = open("vectors_large.txt", "r")
+phase_data = open("phases_large.txt")
 
 learningDataList = []
 testDataList = []
@@ -25,14 +25,14 @@ learning_data.close()
 test_data.close()
 phase_data.close()
 
-row = 40
-col = 40
-learntime = 1000
-alpha = 4.0
+row = 40 #mapのサイズ
+col = 40 #
+learntime = 1000 #学習回数
+alpha = 0.5
 vectorSize = len(learningDataList[0])
 weight = np.random.random([row,col,vectorSize])
 colorMap = np.random.random([row,col,3])
-neighborhoodAreaSize = np.zeros((row,col))
+neighborhoodAreaSize = np.zeros((row,col)) #neighborhood area size記録用の配列
 
 
 #plt.imshow(weight,interpolation='none')
@@ -49,11 +49,10 @@ def som(phasevec):
             except:
                 pass
 
-fig = plt.figure()
-plt.axis('off')
-index = 0
-#入力データから学習を行い自己組織化マップを作製
 
+
+#入力データから学習を行い自己組織化マップを作製
+index = 0
 print("[learning start]")
 for time in range(learntime):
     index = 0
@@ -62,6 +61,7 @@ for time in range(learntime):
         som(learningData)
         index += 1
 print("[learning finished]")
+
 #自己組織化マップの各ノードのneighborhood area sizeを記録した配列neighborhoodAreaSizeを作製
 for i in range(row):
     for j in range(col):
@@ -72,15 +72,25 @@ for i in range(row):
                 except:
                     pass
 
+#neighborhood area sizeを色の明暗（大きいほど明るい）で表したcolor mapを作成
+maxNeighborhoodAreaSize = np.max(neighborhoodAreaSize)
+for i in range(row):
+    for j in range(col):
+        colorValue = (neighborhoodAreaSize[i][j] / maxNeighborhoodAreaSize)
+        colorMap[i][j] = np.array([colorValue,0.0,0.0])
+
 #test_dataと自己組織化マップを照らし合わせて，test_dataのフェイズのneiborhood area sizeを求める
 for i in range(len(testDataList)):
     min_index = np.argmin(((weight-testDataList[i])**2).sum(axis=2)) #ユークリッド距離が一番近い要素を求める
     mini = int(min_index / col)
     minj = int(min_index % col) #これで座標が求まる
     phase_index = np.argmin(((phaseDataList - testDataList[i])**2).sum(axis=1))
-    print("Phase[{0}]: {1}", format(phase_index,neighborhoodAreaSize[mini][minj])) #フェイズのneighborhood area sizeを表示
+    print("Phase[{0}]: {1}".format(phase_index,neighborhoodAreaSize[mini][minj])) #フェイズのneighborhood area sizeを表示
+    colorValue = (i / len(testDataList)) #color mapの中にテストデータのフェイズを表示 明るい色ほど後の時間のフェイズ
+    colorMap[mini][minj] = np.array([0.0,colorValue,0.0])
 
-
+plt.imshow(colorMap, cmap = 'gray', interpolation = 'none')
+plt.show()
 
 
 """
