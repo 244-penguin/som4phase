@@ -6,8 +6,8 @@ import random
 
 
 learning_data = open("vectors.txt", "r")
-test_data = open("vectors_large.txt", "r")
-phase_data = open("phases_large.txt")
+test_data = open("vectors_freez.txt", "r")
+phase_data = open("phases_freez.txt")
 
 learningDataList = []
 testDataList = []
@@ -27,14 +27,14 @@ learning_data.close()
 test_data.close()
 phase_data.close()
 
-norms = []
-"""
+
 #学習データのノルムの平均値を求めてマップの初期値から割る
+norms = []
 for i in range(len(learningDataList)):
     norms.append((learningDataList[i]**2).sum(axis=0))
 
 avelearningDataNorm = math.sqrt(np.average(norms))
-"""
+
 
 row = 40 #mapのサイズ
 col = 40 #
@@ -46,10 +46,19 @@ weight = np.random.random([row,col,vectorSize])
 colorMap = np.random.random([row,col,3])
 neighborhoodAreaSize = np.zeros((row,col)) #neighborhood area size記録用の配列
 
+
+#初期値のノルムをaveLearningDataNormに合わせる
+for i in range(row):
+    for j in range(col):
+        weight[i][j] = weight[i][j] * (avelearningDataNorm / (weight[i][j]**2).sum(axis=0))
+
+
+#初期値を学習用ベクトルからランダムに選ぶ
+"""
 for i in range(row):
     for j in range(col):
         weight[i][j] = learningDataList[random.randrange(len(learningDataList))]    
-
+"""
 
 def som(phasevec):
     min_index = np.argmin(((weight-phasevec)**2).sum(axis=2)) #ユークリッド距離が一番近い要素を求める
@@ -91,11 +100,19 @@ for i in range(row):
 
 #neighborhood area sizeを色の明暗（大きいほど明るい）で表したcolor mapを作成
 maxNeighborhoodAreaSize = np.max(neighborhoodAreaSize)
+minNeighborhoodAreaSize = np.min(neighborhoodAreaSize)
+"""
+rangeNeighborhoodAreaSize = maxNeighborhoodAreaSize - minNeighborhoodAreaSize
 for i in range(row):
     for j in range(col):
-        colorValue = (neighborhoodAreaSize[i][j] / maxNeighborhoodAreaSize)
+        colorValue = ((neighborhoodAreaSize[i][j] - minNeighborhoodAreaSize) / rangeNeighborhoodAreaSize)
         colorMap[i][j] = np.array([colorValue,0.0,0.0])
-
+"""
+for i in range(row):
+    for j in range(col):
+        colorValue = neighborhoodAreaSize[i][j] / maxNeighborhoodAreaSize
+        colorMap[i][j] = np.array([colorValue,0.0,0.0])
+        
 #test_dataと自己組織化マップを照らし合わせて，test_dataのフェイズのneiborhood area sizeを求める
 outputFile = open('OUTPUT.txt', 'w')
 for i in range(len(testDataList)):
@@ -103,9 +120,13 @@ for i in range(len(testDataList)):
     mini = int(min_index / col)
     minj = int(min_index % col) #これで座標が求まる
     phase_index = np.argmin(((phaseDataList - testDataList[i])**2).sum(axis=1))
+    
     outputFile.write("[{0}] Phase[{1}]: {2}\n".format(i,phase_index,neighborhoodAreaSize[mini][minj])) #フェイズのneighborhood area sizeを表示
     colorValue = (i / len(testDataList)) #color mapの中にテストデータのフェイズを表示 水色に近いほど後の時間のフェイズ
-    colorMap[mini][minj] = np.array([0.0,colorValue,255.0])
+    if phase_index == 5:
+        colorMap[mini][minj] = np.array([255.0,255.0,0.0])
+    else:
+        colorMap[mini][minj] = np.array([0.0,colorValue,255.0])
 
 outputFile.close()
 

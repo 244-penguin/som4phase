@@ -17,13 +17,24 @@ for item in listString:
 
 test_data.close()
 """
+"""
+weight = np.random.randint(10,size=(3,3))
 
-weight = np.random.randint(10,size=(3))
-
-vec = np.array([2,2,2])
+vec = np.array([1,1,1])
 print("weight")
 print(weight)
 
+print("weight / np.linalg.norm(weight)")
+print(weight / np.linalg.norm(weight))
+
+print("np.linalg.norm(weight)")
+print(np.linalg.norm(weight))
+
+print("np.max(weight)")
+print(np.max(weight))
+"""
+
+"""
 print("weight / 2")
 print(weight / 2)
 
@@ -35,7 +46,7 @@ print(((weight)**2).sum(axis=0))
 
 print("np.average(((weight)**2).sum(axis=0))")
 print(np.average(((weight)**2).sum(axis=1)))
-
+"""
 
 """
 colorvec = np.array([
@@ -59,3 +70,10 @@ g.write("Phase[{0}]".format(a))
 g.close()
 """
 
+num = 5
+array1 = np.array([0.5, 0.4, 0.2])
+array2 = np.array([0.3, 0.6, 0.8])
+
+sum = array1 + array2
+
+print(sum / 2)
